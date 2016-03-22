@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:background="@drawable/mainbackground">
+
+
+		<ImageView android:id="@+id/btn_gallery"
+		 android:src="@drawable/gallery_icon" 
+		android:layout_width="30pt"
+		android:layout_height="30pt"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		 >
+		 
+		 
+		</ImageView>
+	
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true">
+		<Button android:layout_width="30pt"  android:layout_gravity="center_horizontal" android:textColor=
+			  android:id="@+id/ButtonPlayStop" android:background="@drawable/player_play" and
+			android:layout_height="40px" android:text="@string/play_str"></Button>
+		<SeekBar android:layout_width="fill_parent" android:id="@+id/SeekBar01"
+			android:thumb="@drawable/seekicon" android:layout_height="30px"></SeekBar>
+	</LinearLayout>
+
+</RelativeLayout>
